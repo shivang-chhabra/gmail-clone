@@ -1,0 +1,20 @@
+.login{
+display: grid;
+place-items: center;
+height: 100vh;
+background-color: whitesmoke;
+
+}
+
+.login__container{
+display: flex;
+flex-direction: column;
+}
+.login__container>img{
+    object-fit: contain;
+    height: 200px !important;
+    
+}
+/* .gmail__login{
+    background-image: url(../public/login.jpg);
+} */
